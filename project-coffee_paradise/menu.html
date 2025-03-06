@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .menu .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+      gap: .5rem;
+    }
+    .menu .box-container .box{
+      padding: 1rem;
+      text-align: center;
+      border:1px solid rgb(255, 255, 255);
+      background-color: black;
+    }
+    .menu .box-container .box img{
+      height: 20rem;
+      width: 20rem;
+      border: 1px solid white;
+    }
+    .menu .box-container .box h3{
+      color: azure;
+      font-size: 2rem;
+    
+    }
+    .menu .box-container .box .price{
+      color: azure;
+      font-size: 2rem;
+      
+    }
+    .menu .box-container .box .btn{
+      background-color: rgb(219, 134, 98);
+      background-size: 5rem;
+      border: solid rgb(0, 0, 0) 2px;
+      color: black;
+      font-size: 25px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      text-decoration: none;
+      align-items: center;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .menu .box-container .box .btn a{
+      text-decoration: none;
+      color: black;
+    }
+    </style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#hot classics">Hot Classics</a>
+    <a href="#chill delight">Chill Delight</a>
+    
+  </div>
+    <section class="menu" id="hot Classics">
+       
+        <div class="box-container">
+        <div class="box">
+            <img src="2.jpg">
+            <h3>Espresso</h3>
+          <div class="price">₹119</div>
+          <div  class="btn"><a href="#">Add +</a></div>
+        </div>
+       
+       
+          <div class="box">
+             <img src="3.webp">
+              <h3>Cappuccino</h3>
+            <div class="price">₹139</div>
+            <div  class="btn"><a href="#">Add +</a></div>
+          </div>
+          
+            <div class="box">
+               <img src="Skinny-Vanilla-Latte-6.jpg">
+                <h3>Vanilla Latte</h3>
+              <div class="price">₹199</div>
+              <div  class="btn"><a href="#">Add +</a></div>
+            </div>
+              <div class="box">
+                 <img src="4.avif">
+                  <h3>Vanilla Latte</h3>
+                <div class="price">₹199</div>
+                <div  class="btn"><a href="#">Add +</a></div>
+              </div>
+              <div class="box">
+                <img src="5.jpg">
+                 <h3>Honey Cinnamon Coffee</h3>
+               <div class="price">211</div>
+               <div  class="btn"><a href="#">Add +</a></div>
+             </div>
+        
+             <div class="box">
+              <img src="6.jpg">
+               <h3>Hot Velvet Coffee</h3>
+             <div class="price">₹249</div>
+             <div  class="btn"><a href="#">Add +</a></div>
+           </div>
+         <div class="box">
+          <img src="8.jpg">
+           <h3>Salted Caramel Macchiato</h3>
+         <div class="price">₹239</div>
+         <div  class="btn"><a href="#">Add +</a></div>
+       </div>
+        
+       <div class="box">
+        <img src="9.webp">
+         <h3>Mystic Monk Coffee</h3>
+       <div class="price">₹239</div>
+       <div  class="btn"><a href="#">Add +</a></div>
+     </div>
+  </div>
+      </section>  
+</body>
+</html>
